@@ -1,16 +1,3 @@
-// const botoes = document.querySelectorAll(".botao");
- 
-// botoes.forEach(botao => {
-//     botao.addEventListener("click", () => {
-    
-//     const botaoSelecionado = document.querySelector(".botao.selecionado");
-//     botao.classList.remove("selecionado");
-        
-//     botao.classList.add("selecionado");
-
-//     });
-// });
-
 var listaDeConteudo = [
     {
         nome: 'Tony Chopper',
@@ -58,6 +45,7 @@ var listaDeConteudo = [
     },
 ];
 
+mudarConteudo(2);
 
 function selecionaBotao(botaoSelecionado, posicao) {
     deselecionarBotao();
