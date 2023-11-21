@@ -17,7 +17,7 @@
 
 <body>
     <main class="personagens">
-        <div class="personagem">
+        <div class="personagem selecionado">
             <img class="imagem" src="./src/imagens/imagens/personagem-tony-chopper.png" alt="personagem tony chopper">
             <div class="conteudo">
                 <i class="logo"></i>
@@ -29,87 +29,34 @@
                     chamada Drum.</p>
             </div>
         </div>
-
-        <div class="personagem">
-            <img class="imagem" src="./src/imagens/imagens/personagem-roronoa-zoro.png" alt="personagem ronoroa zoro">
-            <div class="conteudo">
-                <i class="logo"></i>
-                <h2 class="nome-personagem">Ronoroa Zoro</h2>
-                <p class="descricao">Foi o primeiro membro a juntar-se à tripulação. Sua fama como mestre espadachim e
-                    sua grande força,
-                    juntamente com as ações de seu capitão, às vezes levaram os outros a acreditar que ele era o
-                    verdadeiro capitão da
-                    tripulação antes deste obter sua primeira recompensa, enquanto algumas pessoas acreditam que ele
-                    seja o imediato</p>
-            </div>
-        </div>
-
-        <div class="personagem selecionado">
-            <img class="imagem" src="./src/imagens/imagens/personagem-monkey-d-luffy.png"
-                alt="personagem monkey d. luffy">
-            <div class="conteudo">
-                <i class="logo"></i>
-                <h2 class="nome-personagem">Monkey D. Luffy</h2>
-                <p class="descricao">Também conhecido como "Chapéu de Palha", é o fundador e capitão dos cada vez mais
-                    infames e
-                    poderosos Piratas do Chapéu de Palha, bem como o mais poderoso de seus melhores lutadores. Ele
-                    deseja encontrar o
-                    tesouro lendário deixado para trás pelo falecido Gol D. Roger e assim se tornar o Rei dos Piratas.
-                </p>
-            </div>
-        </div>
-
-        <div class="personagem">
-            <img class="imagem" src="./src/imagens/imagens/personagem-nami.png" alt="personagem nami">
-            <div class="conteudo">
-                <i class="logo"></i>
-                <h2 class="nome-personagem">Nami</h2>
-                <p class="descricao">A "Gata Ladra" Nami é a navegadora dos Piratas do Chapéu de Palha.
-                    Ela foi o terceiro membro da tripulação, ela é a irmã adotiva de Nojiko, desde que as
-                    duas ficaram órfãs e foram levadas por Bell-mère.</p>
-            </div>
-        </div>
-
-        <div class="personagem">
-            <img class="imagem" src="./src/imagens/imagens/personagem-sanji.png" alt="personagem sanji">
-            <div class="conteudo">
-                <i class="logo"></i>
-                <h2 class="nome-personagem">Sanji</h2>
-                <p class="descricao">"Perna Preta" Sanji, nascido como Vinsmoke Sanji, e também é o cozinheiro dos
-                    Piratas do Chapéu de Palha,
-                    assim como um antigo chefe de cozinha do Baratie. Ele também é o terceiro filho e a quarta criança
-                    da Família Vinsmoke,
-                    tornando-o um príncipe do Reino Germa, até que ele oficialmente os renunciou duas vezes.</p>
-            </div>
-        </div>
     </main>
     <ul class="botoes">
         <li>
-            <button class="botao" onclick="selecionaBotao(this)">
+            <button class="botao" onclick="selecionaBotao(this, 0)">
                 <img src="./src/imagens/imagens/tripulacao-chopper.png" alt="bot tony">
             </button>
         </li>
 
         <li>
-            <button class="botao" onclick="selecionaBotao(this)">
+            <button class="botao" onclick="selecionaBotao(this, 1)">
                 <img src="./src/imagens/imagens/tripulacao-zoro.png" alt="bot zoro">
             </button>
         </li>
 
         <li>
-            <button class="botao botao-selecionado" onclick="selecionaBotao(this)">
+            <button class="botao botao-selecionado" onclick="selecionaBotao(this, 2)">
                 <img src="./src/imagens/imagens/tripulacao-luffy.png" alt="bot luffy">
             </button>
         </li>
 
         <li>
-            <button class="botao" onclick="selecionaBotao(this)">
+            <button class="botao" onclick="selecionaBotao(this, 3)">
                 <img src="./src/imagens/imagens/tripulacao-nami.png" alt="bot nami">
             </button>
         </li>
 
         <li>
-            <button class="botao" onclick="selecionaBotao(this)">
+            <button class="botao" onclick="selecionaBotao(this, 4   )">
                 <img src="./src/imagens/imagens/tripulacao-sanji.png" alt="bot sanji">
             </button>
         </li>
